@@ -23,10 +23,10 @@ const About = () => {
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Hussnain Javed </p>
+              <p className="grid-headtext">Hi, I’m Adarsh Bhardwaj </p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+                With various experiences, I have honed my skills in both frontend and backend dev, creating dynamic and
+                responsive websites.
               </p>
             </div>
           </div>
@@ -34,13 +34,17 @@ const About = () => {
 
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
+            <img src="assets/910.jpg" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-                applications
+                I specialize in{' '}
+                <b>
+                  MERN Stack (MongoDB, Express.js, React.js, Node.js), JavaScript, TypeScript, OAuth 2.0, WebRTC,
+                  Socket.io, MySQL, Next.js, Django, Firebase, API integration, Postman, GSAP Animation, CRM software,
+                  HTML, CSS, Tailwind CSS, Bootstrap, Python, C, C++, and Git.
+                </b>
               </p>
             </div>
           </div>
@@ -63,7 +67,7 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
+              <p className="grid-subtext">I&apos;m based in Delhi, India and open to remote work worldwide.</p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
@@ -95,7 +99,9 @@ const About = () => {
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">Hussnain Javed@jsmastery.pro</p>
+                <p className="lg:text-xl md:text-xl font-medium text-gray_gradient text-white">
+                  adarsh.bhardwaj.w@gmail.com
+                </p>
               </div>
             </div>
           </div>

@@ -9,17 +9,35 @@ const Footer = () => {
 
       <div className="flex gap-3">
         <div className="social-icon">
-          <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
+          <a
+            href="https://github.com/adarshbhardwaj27"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-1/2 h-1/2">
+            <img src="/assets/github.svg" alt="GitHub" />
+          </a>
         </div>
         <div className="social-icon">
-          <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
+          <a
+            href="https://leetcode.com/u/adarshbhardwaj27/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-1/2 h-1/2">
+            <img src="/assets/leetcode.svg" alt="LeetCode" />
+          </a>
         </div>
         <div className="social-icon">
-          <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
+          <a
+            href="https://www.linkedin.com/in/adarsh-bhardwaj-w/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-1/2 h-1/2">
+            <img src="/assets/linkedin.svg" alt="LinkedIn" />
+          </a>
         </div>
       </div>
 
-      <p className="text-white-500">© 2024 Hussnain Javed . All rights reserved.</p>
+      <p className="text-white-500">© 2024 Adarsh Bhardwaj . All rights reserved.</p>
     </footer>
   );
 };
