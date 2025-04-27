@@ -1,3 +1,5 @@
+// "href": "https://mernstack-blog-adarsh-a7a45ef8836d.herokuapp.com/",
+
 export const navLinks = [
   {
     id: 1,
@@ -45,7 +47,7 @@ export const myProjects = [
     "title": "Blogify - MERN Stack Blog Web App",
     "desc": "Blogify is a feature-rich blog platform that allows users to Create, Read, Update, and Delete (CRUD) blogs with user authentication.",
     "subdesc": "Built with MongoDB, React.js, Node.js, and Express.js. Utilized JWT for authentication and deployed on Heroku.",
-    "href": "https://mernstack-blog-adarsh-a7a45ef8836d.herokuapp.com/",
+    "href": "https://www.heroku.com/",
     "texture": "/textures/project/project1.mp4",
     "logo": "/assets/project-logo1.png",
     "logoStyle": {
